@@ -145,7 +145,7 @@ button{
     
     #content{
         background-image: none;
-        width: 768px;
+     
         align-items: flex-start;
         background-image: url('imgs/tablet/image-host.jpg');
         background-size: contain;
@@ -154,6 +154,7 @@ button{
         height: auto;
         padding-left: 1rem;
         position: relative;
+        max-width: 1000px;
         
     }
 
@@ -238,6 +239,16 @@ button{
         top: 45rem;
         left: 1rem;
     }
+
+}
+
+@media screen and (min-width:1440px){
+
+#content{
+    width: 1024px;
+    background-image: url('imgs/desktop/image-host.jpg');
+    background-position: right;
+}
 
 }
 
