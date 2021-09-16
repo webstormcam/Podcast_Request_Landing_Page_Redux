@@ -146,16 +146,26 @@ button{
 
     .title{
         text-align: left;
+        font-size: 3rem;
+        padding-top: 2rem;
+        line-height: 4rem;
     }
 
     .grey_words{
         text-align: left;
+        padding-right: 10rem;
+        padding-left: 0rem;
+        font-size: 1.2rem;
     }
 
     #words_and_buttons{
        width: 635px;
        background-color: #121725;
        margin-top: 10rem;
+    }
+
+    .img-row{
+        display: none;
     }
 }
 
