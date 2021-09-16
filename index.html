@@ -19,6 +19,29 @@
 <body>
     <div id="mobile">
         <img class="mobile-logo" src="imgs/desktop/logo.svg" alt="logo icon">
+        <div id="words_and_buttons">
+            <h1 class="title">PUBLISH YOUR PODCASTS <br>
+                <span>EVERYWHERE</span>
+            </h1>
+            <p class="grey_words">Upload your audio to Pod with a single click. We'll then distribute your podcast to
+                Spotify, Apple
+                Podcasts, Google Podcasts, Pocket Casts and more!
+            </p>
+            <div class="img-row">
+                <img class="music1" src="imgs/desktop/spotify.svg" alt="">
+                <img class="music2" src="imgs/desktop/apple-podcast.svg" alt="">
+                <img class="music3" src="imgs/desktop/google-podcasts.svg" alt="">
+                <img class="music4" src="imgs/desktop/pocket-casts.svg" alt="">
+            </div>
+            <form id="myForm" class="mobile" name="myForm" action="#"
+                onsubmit='event.preventDefault(); validateForm(); ' method="get">
+                <input class="mobile" id='email' type="text" placeholder="Email address" name='email'>
+                <p id="error"></p>
+
+                <button name="cat">Request Access</button>
+            </form>
+
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
