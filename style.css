@@ -16,7 +16,7 @@ body{
 #mobile{
   background-image: url('imgs/mobile/image-host.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +39,7 @@ body{
     color: #54E6AF;
     font-weight: 300;
     font-size: 1.6rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
     
 }
 
@@ -102,6 +102,12 @@ background-color: #2C344B;
 border: 1px solid #2C344B;
 }
 
+input::placeholder{
+    padding-left: 1rem;
+    color: #C2CBE5;
+    font-weight: 700;
+}
+
 button{
     width: 90%;
     padding: 1rem;
@@ -110,5 +116,6 @@ button{
     border: 1px solid #54E6AF;
     color: #121725;
     font-weight: 700;
+   
 }
 
