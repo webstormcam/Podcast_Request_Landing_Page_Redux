@@ -134,6 +134,28 @@ button{
 @media screen and (min-width:768px) {
     #content{
         background-image: none;
+        width: 768px;
+        align-items: flex-start;
+        background-image: url('imgs/tablet/image-host.jpg');
+        background-size: contain;
+        background-position: right;
+        box-shadow: none;
+        height: auto;
+        
+    }
+
+    .title{
+        text-align: left;
+    }
+
+    .grey_words{
+        text-align: left;
+    }
+
+    #words_and_buttons{
+       width: 635px;
+       background-color: #121725;
+       margin-top: 10rem;
     }
 }
 
