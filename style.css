@@ -76,6 +76,10 @@ body{
     margin-bottom: 3rem;
 }
 
+.img-row-tablet{
+    display: none;
+}
+
 .music1{
     width: 3.5rem;
     filter: invert(40%) sepia(41%) saturate(366%) hue-rotate(187deg) brightness(88%) contrast(89%);
@@ -131,7 +135,14 @@ button{
    
 }
 
+.dots-tablet{
+    display: none;
+}
+
 @media screen and (min-width:768px) {
+    
+   
+    
     #content{
         background-image: none;
         width: 768px;
@@ -142,6 +153,7 @@ button{
         box-shadow: none;
         height: auto;
         padding-left: 1rem;
+        position: relative;
         
     }
 
@@ -176,6 +188,33 @@ button{
         display: none;
     }
 
+    .img-row-tablet{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+    }
+
+    .music1{
+        width: 4rem;
+        filter: invert(40%) sepia(41%) saturate(366%) hue-rotate(187deg) brightness(88%) contrast(89%);
+        
+    }
+    
+    .music2{
+        width: 4rem ;
+        filter: invert(40%) sepia(41%) saturate(366%) hue-rotate(187deg) brightness(88%) contrast(89%);
+    }
+    
+    .music3{
+        width: 9rem ;
+        filter: invert(40%) sepia(41%) saturate(366%) hue-rotate(187deg) brightness(88%) contrast(89%);
+    }
+    
+    .music4{
+        width: 9rem ;
+        filter: invert(40%) sepia(41%) saturate(366%) hue-rotate(187deg) brightness(88%) contrast(89%);
+    }
+
     input{
         width: 28rem;
         margin-top: 2rem;
@@ -189,6 +228,15 @@ button{
         padding-top: 0.7rem;
         padding-bottom: 0.7rem;
         
+    }
+
+    .dots-tablet{
+        display: block;
+        align-self: flex-start;
+        margin-top: 7rem;
+        position: absolute;
+        top: 45rem;
+        left: 1rem;
     }
 
 }
