@@ -164,8 +164,30 @@ button{
        margin-top: 10rem;
     }
 
+    form{
+        align-items: flex-start;
+        position: relative;
+        
+    }
+
     .img-row{
         display: none;
     }
+
+    input{
+        width: 28rem;
+        margin-top: 2rem;
+      
+    }
+    button{
+        position: absolute;
+        width: 10rem;
+        top: 2.3rem;
+        right: 12rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        
+    }
+
 }
 
