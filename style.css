@@ -141,6 +141,7 @@ button{
         background-position: right;
         box-shadow: none;
         height: auto;
+        padding-left: 1rem;
         
     }
 
@@ -156,6 +157,7 @@ button{
         padding-right: 10rem;
         padding-left: 0rem;
         font-size: 1.2rem;
+        line-height: 1.7rem;
     }
 
     #words_and_buttons{
