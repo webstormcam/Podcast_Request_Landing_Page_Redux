@@ -62,7 +62,7 @@ body{
     margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .music1{
@@ -90,7 +90,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
 }
 
 input{
@@ -98,11 +98,17 @@ width: 90%;
 border-radius: 2rem;
 padding: 1rem;
 margin-bottom: 1rem;
+background-color: #2C344B;
+border: 1px solid #2C344B;
 }
 
 button{
     width: 90%;
     padding: 1rem;
     border-radius: 2rem;
+    background-color:#54E6AF ;
+    border: 1px solid #54E6AF;
+    color: #121725;
+    font-weight: 700;
 }
 
