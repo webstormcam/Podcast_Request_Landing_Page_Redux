@@ -139,6 +139,10 @@ button{
     display: none;
 }
 
+#error{
+    color: red;
+}
+
 @media screen and (min-width:768px) {
     
    
@@ -245,7 +249,9 @@ button{
 @media screen and (min-width:1440px){
 
 #content{
-    width: 1024px;
+    margin-top: 4rem;
+    max-width: none;
+    width: 1275px;
     background-image: url('imgs/desktop/image-host.jpg');
     background-position: right;
 }
