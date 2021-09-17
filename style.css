@@ -143,6 +143,10 @@ button{
     color: red;
 }
 
+.dots-desktop{
+  display: none;
+}
+
 @media screen and (min-width:768px) {
     
    
@@ -271,9 +275,14 @@ button{
 }
 
 .dots-tablet{
-    top: 0rem;
-    left: 0rem;
-    bottom: 20rem;
+    display: none;
+}
+
+.dots-desktop{
+    display: block;
+    position: absolute;
+    bottom: -3rem;
+    right: -2rem;
 }
 
 }
