@@ -155,7 +155,7 @@ button{
         background-size: contain;
         background-position: right;
         box-shadow: none;
-        height: auto;
+        height: 752px;
         padding-left: 1rem;
         position: relative;
         max-width: 1000px;
@@ -254,6 +254,26 @@ button{
     width: 1275px;
     background-image: url('imgs/desktop/image-host.jpg');
     background-position: right;
+    height: 700px;
+}
+
+#words_and_buttons{
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.title{
+    padding-top: 4rem;
+}
+
+.mobile-logo{
+    margin-top: 0rem;
+}
+
+.dots-tablet{
+    top: 0rem;
+    left: 0rem;
+    bottom: 20rem;
 }
 
 }
